@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Art Studio</title>
+</head>
+<body>
+<header>
+<h1>Hello</h1>
+</header>
+<nav> 
+<a href="//"></a> |
+<a href="//"></a> |
+<a href="//">JavaScript</a> |
+<a href="//">Python</a>
+</nav>
+
+<aside></aside>
+</body>
+<footer></footer>
+
+</html>
