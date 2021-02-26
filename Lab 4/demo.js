@@ -62,7 +62,7 @@ function CalculateCommission()
      topSalesPerson=salesperson[i];
    }
    }
-   alert(topSalesPerson+" " +topCommission);
+   alert("Top salesperson is"+" "+ topSalesPerson+" "+"top commission amount is " +" " +topCommission);
 
 }
 
