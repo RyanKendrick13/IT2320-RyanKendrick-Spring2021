@@ -39,6 +39,7 @@ function getDiscountedPrices()
         var discount =getDiscountPercent(p.orgin);
          p.saleprice= p.price-(p.price*discount);
          console.log("\n name:"+p.name+" "+"author:"+p.author+" "+"price:$"+p.price+" "+"saleprice:"+p.saleprice);
+         
     });
 }
 
