@@ -4,14 +4,14 @@ $(document).ready(function(){
 $("#up").on("click",function(){
 
     $("#box").animate({
-        top:"30px"
+        top:"0px"
     
     });
 });
     $("#down").on("click",function(){
 
         $("#box").animate({
-        down:"250px"
+        top:"350px"
         
         });
    
@@ -22,25 +22,41 @@ $("#up").on("click",function(){
 $("#left").on("click",function(){
 
     $("#box").animate({
-    left:"250px"
+    left:"0px"
     
     });
 });
 $("#right").on("click",function(){
 
     $("#box").animate({
-    right:"250px"
+    left:"350px"
     
     });
-    $("#fadeout").on("click",function(){
+    
+});
+$("#fadeout").on("click",function(){
+
+    $("#box").animate({
+    height:"hide"
+    });
+});
+$("#fadein").on("click",function(){
+
+    $("#box").animate({
+    height:"show"
+    });
+});
+    $("#reset").on("click",function(){
 
         $("#box").animate({
-        height:"hide"
+            height:"show",
+            left:"0px",
+            top:"0px"
+
         });
-});
+    });
 });
 
-});
 
 
 
